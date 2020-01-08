@@ -1,0 +1,265 @@
+.section{
+
+    &--full{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    &--longer{
+        height: 200vh;
+    }
+    
+}
+/*
+* Primeira Sessão - Banner
+*/
+.firstSection{
+   
+    position: relative;
+    background-color: hsla(235, 10%, 2%, 1);
+   
+    .firstSection--img{
+        position: absolute;
+        bottom: 6vh;
+        right: 20vw;
+        z-index: 1;
+        height: 80vh;
+      
+        mix-blend-mode: lighten;
+    }
+
+    .mainCall{
+        position: absolute;
+        bottom: 24vh;
+        left: 20vw;
+    }
+
+    .mainCall__title{     
+        font-family: 'antonio';
+        color: white;
+
+        &--small{
+            font-weight: lighter;
+            font-size: 1.5em;
+            margin-bottom: 8px;
+        }
+        &--strong{
+            font-weight: lighter;
+            font-size: 5em;
+            text-transform: uppercase;
+            strong{
+                font-weight: bold;
+            }
+        }
+    }
+
+    .mainCall__shortcutBar{
+        display: flex;
+        padding-left: 8px;
+
+        li{
+            list-style-type: none;
+            padding-right: 16px;
+        }
+    }
+    
+}
+
+.mainProject{
+    position: relative;
+    top: -22vh;
+    margin-left: 24px;
+    margin-right: 24px;
+
+    background-color: hsl(240, 9%, 1%);
+}
+
+.secondSection__headerSection{
+    position: relative;
+    top: 5vh;
+    width: 100vw;
+    min-height: 200px;
+
+    
+    div{
+        position: absolute;
+        display: inline-block;
+
+        text-transform: uppercase;
+        color: white;
+        font-family: 'antonio';
+        font-weight: lighter;
+        font-size: 1.4em;
+    }
+
+   
+    
+    .secondSection__myproject{
+        left: calc(24vw - 24px);
+        hr{
+            border:         none;
+            border-left:    1px solid white;
+            height:         22vh;
+            width:          1px;     
+        }
+    }
+
+    .secondSection__aboutme{
+        right: 0;
+        hr{
+            width: 16vw;
+        }
+    }
+}
+
+
+
+.secondSection__Cabify{
+   display: flex;
+   position: relative;
+   width: 100%;
+   height: 90vh;
+ 
+   
+
+    .secondSection__Cabify--container{
+        display: flex;
+        transform: translateY(50%);
+        height: 50vh;
+        width: 45vw;
+    
+    }
+    
+    img{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%); 
+
+        display: inline-block;
+        left: calc(10vw - 25px);
+        width: 45vw;
+        z-index: 1;
+        mix-blend-mode: lighten;
+
+    }
+
+
+    .secondSection__tag{
+
+        
+        .line--lighter{
+            height: 50%;
+        }
+        
+        .line--white {
+            height: 10%;
+            
+        }
+  
+
+    }
+   
+   
+    .secondSection__content{
+        display: flex;
+        width: 90%;
+    }
+    
+    h1{
+        display: inline-block;
+        position: relative;
+        width: 30%;
+        margin-left: 5%;
+        margin-right: 5%;
+        z-index: 2;
+  
+    }
+    p{
+        display: flex;
+        align-self: flex-end;
+        position: relative;
+        bottom: 48px;
+
+        width: 45%;
+        
+        
+    }
+    button{
+        align-self: flex-end;
+        color: white;
+    }
+}
+
+
+.thirdSection__Inter{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+
+    .thirdSection__tag{
+        position: relative;
+        width: fit-content;
+        top: -15vh;
+        margin-right: 16px;
+        
+        .line--lighter{
+            height: 200px;
+        }
+    }
+ 
+
+    .thirdSection__Inter--container{
+        display: flex;
+
+        height: fit-content;
+        width: 18vw;
+        
+        h1{
+            width:90%;
+            align-self: flex-end;
+        }
+
+        .category--title{   
+            display: flex;
+            align-self: flex-start;
+        }
+    }
+    
+    p{
+        display: flex;
+
+        width: 18vw;
+        height: auto;
+        align-self: flex-end;
+    }
+
+    button{
+        display: flex;
+        align-self: flex-end;
+
+    }
+
+    img{
+        width: 24vw;
+    }
+
+}
+
+@media (min-width:320px) { 
+    /* smartphones, iPhone, portrait 480x320 phones */ 
+}
+@media (min-width:481px) { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+}
+@media (min-width:641px) { 
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+}
+@media (min-width:961px) { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+}
+@media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */
+ }
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+}
