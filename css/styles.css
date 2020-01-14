@@ -695,7 +695,10 @@ button {
   margin-right: 16px;
 }
 .thirdSection__Inter .thirdSection__tag .line--lighter {
-  height: 200px;
+  height: 100px;
+}
+.thirdSection__Inter .thirdSection__tag .line--white {
+  height: 30px;
 }
 .thirdSection__Inter .thirdSection__Inter--container {
   display: flex;
@@ -703,8 +706,10 @@ button {
   width: 18vw;
 }
 .thirdSection__Inter .thirdSection__Inter--container h1 {
-  width: 90%;
+  position: relative;
+  top: 30px;
   align-self: flex-end;
+  width: 90%;
 }
 .thirdSection__Inter .thirdSection__Inter--container .category--title {
   display: flex;
@@ -722,6 +727,10 @@ button {
 }
 .thirdSection__Inter img {
   width: 24vw;
+}
+
+.fourthSection_moreProject {
+  background-color: red;
 }
 
 @media (min-width: 320px) {

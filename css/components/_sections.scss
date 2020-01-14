@@ -8,6 +8,10 @@
     &--longer{
         height: 200vh;
     }
+
+    &--wide{
+        width: 100vw;
+    }
     
 }
 /*
@@ -203,7 +207,11 @@
         margin-right: 16px;
         
         .line--lighter{
-            height: 200px;
+            height: 100px;
+        }
+
+        .line--white{
+            height: 30px;
         }
     }
  
@@ -215,8 +223,14 @@
         width: 18vw;
         
         h1{
-            width:90%;
+            position: relative;
+            top: 30px;
             align-self: flex-end;
+           
+            width: 90%;
+            
+   
+            
         }
 
         .category--title{   
@@ -243,6 +257,10 @@
         width: 24vw;
     }
 
+}
+
+.fourthSection_moreProject{
+    background-color: red;
 }
 
 @media (min-width:320px) { 
