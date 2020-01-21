@@ -545,6 +545,9 @@ button {
 .section--longer {
   height: 200vh;
 }
+.section--wide {
+  width: 100vw;
+}
 
 /*
 * Primeira Sessão - Banner
@@ -691,8 +694,9 @@ button {
 .thirdSection__Inter .thirdSection__tag {
   position: relative;
   width: fit-content;
-  top: -15vh;
+  top: -130px;
   margin-right: 16px;
+  height: fit-content;
 }
 .thirdSection__Inter .thirdSection__tag .line--lighter {
   height: 100px;
@@ -702,14 +706,12 @@ button {
 }
 .thirdSection__Inter .thirdSection__Inter--container {
   display: flex;
-  height: fit-content;
   width: 18vw;
 }
 .thirdSection__Inter .thirdSection__Inter--container h1 {
   position: relative;
-  top: 30px;
-  align-self: flex-end;
-  width: 90%;
+  align-self: flex-start;
+  width: 45%;
 }
 .thirdSection__Inter .thirdSection__Inter--container .category--title {
   display: flex;
@@ -730,7 +732,38 @@ button {
 }
 
 .fourthSection_moreProject {
-  background-color: red;
+  background-color: #F7F7F7;
+}
+.fourthSection_moreProject .moreProject_Element {
+  display: inline-block;
+  width: 450px;
+  padding: 48px 24px;
+  border: black 12px solid;
+}
+.fourthSection_moreProject .moreProject_Element .element--Id {
+  display: flex;
+}
+.fourthSection_moreProject .moreProject_Element .category--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 32px;
+}
+.fourthSection_moreProject .moreProject_Element .category--container span {
+  height: fit-content;
+}
+.fourthSection_moreProject .moreProject_Element .category--container hr {
+  height: 200px;
+  margin: 0;
+}
+.fourthSection_moreProject .moreProject_Element p {
+  position: relative;
+  left: 32px;
+  max-width: 70%;
+}
+.fourthSection_moreProject p {
+  color: black;
 }
 
 @media (min-width: 320px) {
@@ -767,6 +800,10 @@ button {
   color: white;
 }
 
+.line--black {
+  color: black;
+}
+
 .category--title {
   display: inline-block;
   writing-mode: vertical-lr;
@@ -778,11 +815,18 @@ button {
   transform: scale(-1, -1);
   font-size: 1.2em;
   font-family: "antonio";
-  color: white;
   font-weight: lighter;
   letter-spacing: 6.8px;
   line-height: 23px;
   text-transform: uppercase;
+}
+
+.title--white {
+  color: white;
+}
+
+.title--black {
+  color: black;
 }
 
 html,

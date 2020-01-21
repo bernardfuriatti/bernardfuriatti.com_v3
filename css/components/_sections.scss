@@ -203,8 +203,9 @@
     .thirdSection__tag{
         position: relative;
         width: fit-content;
-        top: -15vh;
+        top: -130px;
         margin-right: 16px;
+        height: fit-content;
         
         .line--lighter{
             height: 100px;
@@ -219,18 +220,14 @@
     .thirdSection__Inter--container{
         display: flex;
 
-        height: fit-content;
+        // height: fit-content;
         width: 18vw;
         
         h1{
             position: relative;
-            top: 30px;
-            align-self: flex-end;
+            align-self: flex-start;
            
-            width: 90%;
-            
-   
-            
+            width: 45%;    
         }
 
         .category--title{   
@@ -260,7 +257,51 @@
 }
 
 .fourthSection_moreProject{
-    background-color: red;
+    background-color: #F7F7F7;
+
+    .moreProject_Element{
+        display: inline-block;
+        width: 450px;
+
+        padding: 48px 24px;
+        border: black 12px solid;
+
+        .element--Id{
+            display: flex;
+        }
+        .category--container{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+
+            width: 32px;
+
+            span{
+                height: fit-content;
+            }
+
+            hr{
+                height: 200px;
+                margin: 0; 
+            }
+
+            
+        }
+
+        p{
+            position: relative;
+            left: 32px;
+            max-width: 70%;
+        }
+
+    }
+
+    p{
+        color: black;
+    }
+
+    
 }
 
 @media (min-width:320px) { 
