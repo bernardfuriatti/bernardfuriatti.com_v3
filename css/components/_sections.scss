@@ -258,13 +258,25 @@
 
 .fourthSection_moreProject{
     background-color: #F7F7F7;
+    hr{
+        height: 64px;
+        color: black;
+    }
+    h1{
+        margin-top: 40px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
 
     .moreProject_Element{
         display: inline-block;
         width: 450px;
+        // box-sizing: border-box;
+        border: black 0px solid;
 
+        transition: border linear 0.5s;
         padding: 48px 24px;
-        border: black 12px solid;
+        
 
         .element--Id{
             display: flex;
@@ -288,7 +300,7 @@
 
             
         }
-
+        
         p{
             position: relative;
             left: 32px;
@@ -297,8 +309,32 @@
 
     }
 
+    .moreProject_Element:hover{
+        border: black 12px solid;
+    }
+
     p{
         color: black;
+    }
+
+    .moreProject_grid{
+        display: grid;
+        grid-template-areas:    'space0 element0'
+                                'element1 element0'
+                                'element1 element2'
+                                'space1 element2';
+                                width: 75vw;
+                                margin: auto;
+    }
+
+    .element--0{
+        grid-area: element0;
+    }
+    .element--1{
+        grid-area: element1;
+    }
+    .element--2{
+        grid-area: element2;
     }
 
     
