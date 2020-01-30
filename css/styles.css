@@ -638,7 +638,7 @@ button {
   display: flex;
   position: relative;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 .secondSection__Cabify .secondSection__Cabify--container {
   display: flex;
@@ -747,7 +747,7 @@ button {
   display: inline-block;
   width: 450px;
   border: black 0px solid;
-  transition: border linear 0.5s;
+  transition: border linear 0.3s;
   padding: 48px 24px;
 }
 .fourthSection_moreProject .moreProject_Element .element--Id {
@@ -792,6 +792,52 @@ button {
 }
 .fourthSection_moreProject .element--2 {
   grid-area: element2;
+}
+
+.fifthSection__forWho {
+  background-color: white;
+  position: relative;
+  height: 200vh;
+  width: 100vw;
+}
+.fifthSection__forWho .box--title {
+  display: inline-block;
+  position: absolute;
+  height: 70vh;
+  width: 55vw;
+  border: black 12px solid;
+}
+.fifthSection__forWho .brands_grid {
+  display: inline-grid;
+  position: absolute;
+  left: 40vw;
+  grid-template-areas: "brand1 brand2" "brand3 brand4" "brand5 brand6" "brand7 brand8";
+  padding: 40px;
+  background-color: black;
+}
+.fifthSection__forWho .brand--1 {
+  grid-area: brand1;
+}
+.fifthSection__forWho .brand--2 {
+  grid-area: brand2;
+}
+.fifthSection__forWho .brand--3 {
+  grid-area: brand3;
+}
+.fifthSection__forWho .brand--4 {
+  grid-area: brand4;
+}
+.fifthSection__forWho .brand--5 {
+  grid-area: brand5;
+}
+.fifthSection__forWho .brand--6 {
+  grid-area: brand6;
+}
+.fifthSection__forWho .brand--7 {
+  grid-area: brand7;
+}
+.fifthSection__forWho .brand--8 {
+  grid-area: brand8;
 }
 
 @media (min-width: 320px) {
