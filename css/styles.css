@@ -800,17 +800,25 @@ button {
   height: 200vh;
   width: 100vw;
 }
+.fifthSection__forWho .forWho__Container {
+  position: relative;
+  margin: 0 auto;
+  width: 80vw;
+}
 .fifthSection__forWho .box--title {
   display: inline-block;
   position: absolute;
   height: 70vh;
   width: 55vw;
   border: black 12px solid;
+  padding: 60px 40px 40px 40px;
+  box-sizing: border-box;
 }
 .fifthSection__forWho .brands_grid {
   display: inline-grid;
   position: absolute;
-  left: 40vw;
+  right: 0;
+  top: 10vh;
   grid-template-areas: "brand1 brand2" "brand3 brand4" "brand5 brand6" "brand7 brand8";
   padding: 40px;
   background-color: black;
@@ -908,6 +916,15 @@ button {
   font-family: "antonio";
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+
+.title--xl {
+  font-size: 6em;
+  font-family: "antonio";
+  width: 40%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 88px;
 }
 
 html,

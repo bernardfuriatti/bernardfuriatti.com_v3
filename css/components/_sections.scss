@@ -347,19 +347,27 @@
     height: 200vh;
     width: 100vw;
 
+    .forWho__Container{
+        position: relative;
+        margin: 0 auto;
+        width: 80vw;
+    }
     .box--title{
         display: inline-block;
         position: absolute;
         height: 70vh;
         width: 55vw;
         border: black 12px solid;
+        padding: 60px 40px 40px 40px;
+        box-sizing: border-box;
 
     }
 
     .brands_grid{
         display: inline-grid;
         position: absolute;
-        left: 40vw;
+        right: 0;
+        top:10vh;
 
         grid-template-areas:    'brand1 brand2'
                                 'brand3 brand4'
